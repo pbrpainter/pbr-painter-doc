@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Changelog - PBR Painter</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Changelog";
+        var mkdocs_page_input_path = "change_log.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> PBR Painter
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="addon_UI.html">Overview of the Main UI</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="layering_intro.html">Introduction to Layered Texturing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="layer_masks.html">Layer Masks</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="asset_browser.html">Using the Asset Browser (Blender 3.x)</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="id_maps.html">ID Maps</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="baking.html">Baking</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="hands_on_tutorials.html">Hands-On Tutorials</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="change_log.html">Changelog</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="final_note.html">A Final Note</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PBR Painter</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Changelog</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="changelog">Changelog</h1>
+<p><em>Please note that by purchasing PBR Painter you will have access to every update that is released, indefinitely and for no extra cost.</em></p>
+<p>The below shows the <em>major</em> changes made to the addon over previous versions. Note that not all <em>minor</em> changes are mentioned.</p>
+<ul>
+<li>
+<p><strong>v2.3.1:</strong></p>
+<ul>
+<li>Minor bug fixes</li>
+<li>Ported for added compatibility with Blender 3.2 (still backwards compatible with earlier versions)</li>
+</ul>
+</li>
+<li>
+<p><strong>v2.3:</strong></p>
+<ul>
+<li>Add a new ID map system with multiple colors</li>
+<li>Modify material slots UI to automatically determine when to be in texture paint mode when selecting a material</li>
+<li>Move addon outside of texture paint mode to open up access to new features</li>
+<li>Develop a dedicated workspace layout for PBR Painter</li>
+<li>Add preview option for each layer, rather than just when using procedural textures</li>
+<li>Add filled layer option, removing the need to fill every layer (painted layers as you know them will still remain!)</li>
+<li>Create a new setup for painted layers, giving easier access to the built-in painted mask via the mask stack</li>
+<li>Add option to ignore layer's masks for a given channel</li>
+<li>Replace single channel layers with the option to paint over image textures in multichannel layers</li>
+<li>Restructure the UI to give easy access to the main channels (color, roughness, metallic etc)</li>
+<li>Add option to use another layer's mask in the current layer's mask stack</li>
+<li>Add option to use different UV maps for textures, masks etc</li>
+<li>Add option to bake textures and masks to a different UV map</li>
+<li>Add option to import a layer, or all layers, from another material</li>
+<li>Add option to import a mask, or all masks, from another material</li>
+<li>Integrate with 3.0 asset browser, to allow for saving and loading smart materials, layers, masks etc. (still to be added to/improved upon in future</li>
+<li>Add option to use node group as a mask</li>
+<li>Add new icons etc. to improve the overall appearance and user-friendliness of the addon</li>
+<li>Add ambient occlusion option during baking </li>
+<li>Add options to use different edge detection methods for preset edge wear masks</li>
+<li>Add vertex color option for ID maps</li>
+<li>Add new "View Mode" option, accessible via the three dots button next to the layer stack. You can now select either Material (which is the standard view) or Single Channel. </li>
+<li>Added vertex color as an option for ID map, with the Fill Selected Faces feature. This will fill the selected faces with the vertex color that is selected (very useful for quickly creating ID maps for materials).</li>
+<li>Add the option to create an Exportable Material when baking. This will setup a new material (or use a material from a dropdown menu) with the baked textures, ready to export via </li>
+</ul>
+</li>
+<li>
+<p><strong>v2.2:</strong></p>
+<ul>
+<li>Improved addon performance by automatically cleaning up unused images and node groups associated with deleted layers</li>
+<li>Added option to bake and/or merge all PBR Painter materials on mesh to single texture set</li>
+<li>Revamped mask system to enable layer masks on custom layers and imported material layers</li>
+<li>Improved overall addon efficiency and performance</li>
+<li>Streamlined UI for brush settings</li>
+<li>Added extra procedural options</li>
+<li>Added buttons for preset texture resolution (1k, 2k etc)</li>
+<li>Added drop down for mapping mode (point vs texture)</li>
+<li>Added option to import a material node setup as a layer </li>
+<li>Added option to adjust color settings for albedo textures (hue/saturation and RGB curves)</li>
+<li>Streamlined access to other materials in the model's material slots</li>
+<li>Improved background layers to be more streamlined, efficient and easy to use</li>
+<li>Fixed a few minor bugs with importing materials</li>
+<li>Fixed a bug causing ID maps to sometimes not turn off correctly</li>
+<li>Added a preset "Edge Wear" mask</li>
+<li>Added a few new options to different parts of the UI (e.g. option to have new layer auto-filled, option to change merged mask name etc.)</li>
+<li>Added color ramp to Normal channel when using a bump map</li>
+<li>Fixed a bug causing multi-texture import to fail for "glossiness" textures</li>
+<li>Fixed a few bugs with baking</li>
+<li>Fixed a bug with the new box mapping rotation system (normals were being calculated globally rather than locally, which was causing the box mapped textures to change when the object was rotated)</li>
+</ul>
+</li>
+<li><strong>v2.1:</strong><ul>
+<li>Introduced option to instantly import and assign a set of textures automatically</li>
+<li>Introduced option to instantly link multiple channels to the layer mask automatically and simultaneously, speeding up the procedural workflow</li>
+<li>Introduced new addon preferences (autosave now in addon preferences)</li>
+<li>Moved background layer panel to more discrete button in UI</li>
+<li>Introduced additional mapping options for masks</li>
+<li>Introduced a mask multiplier for each channel, for finer control over channel masking</li>
+<li>Introduced a range of preset procedural mask options (currently scratches, grunge and cracks, more to be added), which are tunable and can be incorporated into the mask stack</li>
+<li>Improved UI by adding visual cues showing which channels are switched on/off in a layer</li>
+<li>Improved texture importing</li>
+<li>Overhauled baking system for performance improvement and a smoother user experience.</li>
+<li>Minor bug fixes relating to baking textures.</li>
+<li>Added option to use relative or absolute texture paths in PBR Painter (located under addon preferences).</li>
+<li>Fixed bug causing an error during unregistering, and causing the clearcoat and clearcoat roughness panels to be hidden.</li>
+<li>Some minor bug fixes</li>
+<li>Added option to overwrite previously baked textures during baking</li>
+<li>Changed naming convention for merged textures for clarity</li>
+</ul>
+</li>
+<li><strong>v2.0:</strong><ul>
+<li>Major overhaul of addon for a huge boost to performance</li>
+<li>Restructured UI for a more intuitive, more user-friendly and less busy interface</li>
+<li>New option for importing a height/bump map in the normal channel</li>
+<li>Brand new masking system, using layered system to build complex and highly-specific masks</li>
+<li>More options for each specific mask (which can individually be added to the layered setup)</li>
+<li>New displacement threshold mask, which applies a mask according to the displacement of previous layers (very cool!)</li>
+<li>New option to use a custom layer, which lets you build your own layer from scratch using your own node setups, which can then be painted as a layer as per normal (important for advanced users who need highly specific node setups)</li>
+<li>New copy/paste functions for procedural texture setups, for copying between channels and/or between layers</li>
+<li>Improved how deleted layers are stored for improved addon performance and efficiency</li>
+<li>New automated external texture saving after baking using a user-defined file directory</li>
+<li>Fixed a bug with the autosave feature which was causing it to not save when the mouse was over the 3D viewport.</li>
+<li>Added option to set the time between autosaves</li>
+<li>Fixed a bug with duplicate mask</li>
+<li>Fixed a bug that was occasionally causing an error when using a custom brush</li>
+<li>Fixed a bug with the specular tint channel when using link to mask</li>
+<li>Fixed a bug when using merge masks that was causing the active image to switch away from the painted mask for the layer</li>
+<li>Fixed a bug when duplicating an alpha map mask with box mapping selected</li>
+<li>Additional bug fixes related to normal baking</li>
+<li>Added the option to boost the strength of baked normal textures, which can be used to add stronger details or if the baking is producing maps that are too weak</li>
+<li>Fixed a bug that was sometimes causing an error after deleting then restoring a layer containing masks</li>
+<li>Fixed a bug with external texture baking that was sometimes causing the color space of saved textures to be incorrect</li>
+</ul>
+</li>
+<li><strong>v1.1:</strong><ul>
+<li>New option to paint a procedural texture for each separate PBR channel (noise, voronoi, musgrave or wave), with tools to tune/scale/rotate these as necessary</li>
+<li>Additional mask options (procedural noise, voronoi, musgrave or wave) that can be used in combination with all currently available masks</li>
+<li>New autosave feature which, when turned on, automatically saves modified textures periodically, to avoid accidentally losing work</li>
+<li>New duplicate layer button</li>
+<li>Optional color ramp node when using a roughness, specular or metallic texture, for fine-tuning the texture (e.g. make a roughness texture more glossy)</li>
+<li>Box mapping now available for imported textures, with access to a seam blend slider for creating seamless materials</li>
+<li>New bake button to be used for baking the current material textures without having to use the merge visible button</li>
+<li>Improved naming of baked textures to be more specific and streamlined</li>
+<li>Option to adjust normal strength for each layer individually</li>
+<li>Bump mapping available as an option in single pass layers</li>
+<li>New button to instantly invert any color ramp in the addon.</li>
+<li>Fixed bug that was occasionally causing an error when switching between paint and erase, or when adding a layer</li>
+<li>Introduced the option to change the blend type between layers, for each channel in a layer</li>
+<li>Reduced dependency on internal operations for better compatibility with future Blender versions</li>
+</ul>
+</li>
+<li><strong>v1.0:</strong> <ul>
+<li>Release version</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="hands_on_tutorials.html" class="btn btn-neutral float-left" title="Hands-On Tutorials"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="final_note.html" class="btn btn-neutral float-right" title="A Final Note">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="hands_on_tutorials.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="final_note.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

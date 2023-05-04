@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Hands-On Tutorials - PBR Painter</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Hands-On Tutorials";
+        var mkdocs_page_input_path = "hands_on_tutorials.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> PBR Painter
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="addon_UI.html">Overview of the Main UI</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="layering_intro.html">Introduction to Layered Texturing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="layer_masks.html">Layer Masks</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="asset_browser.html">Using the Asset Browser (Blender 3.x)</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="id_maps.html">ID Maps</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="baking.html">Baking</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="hands_on_tutorials.html">Hands-On Tutorials</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#making-materials">Making Materials</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#episode-1-procedural-rust">Episode 1 - Procedural Rust</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#episode-2-decal-painting">Episode 2 - Decal Painting</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#episode-3-peeling-paint">Episode 3 - Peeling Paint</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-based-tutorials">Project-Based Tutorials</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#episode-1-viking-shield">Episode 1 - Viking Shield</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="change_log.html">Changelog</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="final_note.html">A Final Note</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PBR Painter</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Hands-On Tutorials</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="hands-on-tutorials">Hands-On Tutorials</h1>
+<p>In addition to the Fundamentals tutorial videos mentioned throughout this documentation, there are also a number of hands-on tutorials available.
+These are essential as they put your theoretical understanding of the addon to use in real projects.</p>
+<p>These tutorials are currently separated into two separate YouTube series: <strong>Making Materials</strong> and <strong>Project-Based Tutorials</strong>.</p>
+<h2 id="making-materials">Making Materials</h2>
+<p><strong>Making Materials</strong> is dedicated to making different materials with PBR Painter, covering topics such as procedural textures, masking, decal painting and much more.</p>
+<h3 id="episode-1-procedural-rust">Episode 1 - Procedural Rust</h3>
+<p>This hands-on tutorial demonstrate how to use PBR Painter to generate amazing and tuneable procedural rust, which can be applied to your favourite metal materials. 
+This video gives a great overview of some of the key features in PBR Painter, including masking and procedural texturing.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YFX_QxAtgp8" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<h3 id="episode-2-decal-painting">Episode 2 - Decal Painting</h3>
+<p>This video demonstrates how to take advantage of PBR Painter's amazing decal painting features. Learn how to quickly paint on your favourite decal onto a material, 
+with complete control of the roughness, metallic, normals etc. of the decal.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cSBiXjqotgI" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<h3 id="episode-3-peeling-paint">Episode 3 - Peeling Paint</h3>
+<p><em>Video currently in production...</em></p>
+<h2 id="project-based-tutorials">Project-Based Tutorials</h2>
+<p><strong>Project-Based Tutorials</strong> are focused on texturing real 3D models, and show how to best take advantage of PBR Painter's layered texturing system to texture your models. 
+These tutorials cover everything from masking and ID maps, through to importing textures and hand-painting imperfections and other details. These are <em>highly</em> recommended
+for beginner to intermediate PBR Painter users.</p>
+<h3 id="episode-1-viking-shield">Episode 1 - Viking Shield</h3>
+<p>This hands-on tutorial will guide you from start to finish texturing a viking shield model. Learn a bunch of PBR Painter's most important features, such texture importing 
+and mapping, ID maps, layer masking, decal painting and much more, while actually making an interesting and useful asset!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xdQ0ntEOqc" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="baking.html" class="btn btn-neutral float-left" title="Baking"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="change_log.html" class="btn btn-neutral float-right" title="Changelog">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="baking.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="change_log.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
