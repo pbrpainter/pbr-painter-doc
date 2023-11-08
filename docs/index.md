@@ -1,4 +1,4 @@
-<div style="text-align: right"> Version: 2.3.7 </div>
+<div style="text-align: right"> Version: 2.3.8 </div>
 
 # Overview
 

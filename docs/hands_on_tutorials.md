@@ -25,9 +25,19 @@ with complete control of the roughness, metallic, normals etc. of the decal.
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-### Episode 3 - Peeling Paint
+### Episode 3 - Normal Stamps
 
-_Video currently in production..._
+<p>Similar to Episode 3, this video demonstrates how to use PBR Painter's decal painting process to add normal (or bump) stamps to your materials. Check it out below!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/db1RXd6Jb9o?si=WN5UQQkYT8h6XMt9" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+### Episode 4 - Peeling Paint
+
+<p>This video is a step-by-step guide showing how to make realistic looking peeling paint masks using PBR Painter's layered masking system. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1nRVXpNLItM?si=8ORoSiAgQOqSJNRV" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 ## Project-Based Tutorials
 
@@ -37,7 +47,8 @@ for beginner to intermediate PBR Painter users.
 
 ### Episode 1 - Viking Shield
 
-This hands-on tutorial will guide you from start to finish texturing a viking shield model. Learn a bunch of PBR Painter's most important features, such texture importing 
+<p>This hands-on tutorial will guide you from start to finish texturing a viking shield model. Learn a bunch of PBR Painter's most important features, such texture importing 
 and mapping, ID maps, layer masking, decal painting and much more, while actually making an interesting and useful asset!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1xdQ0ntEOqc" title="YouTube video player" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>

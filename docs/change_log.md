@@ -1,37 +1,48 @@
 # Changelog
-_Please note that by purchasing PBR Painter you will have access to every update that is released, indefinitely and for no extra cost._
+_Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
-- __v2.3.1:__
-	- Minor bug fixes
-	- Ported for added compatibility with Blender 3.2 (still backwards compatible with earlier versions)
+- __v2.4.0:__
+	- __Asset browser integration__
+	- __UDIM support__
+	- __Smart masks__
+	- __New and improved mask UI__
+	- __New baking tools__
+	- __New pie menu__
+	- __Improved addon preferences__
+	- __New texture painting tools__
 
 - __v2.3:__
-	- Add a new ID map system with multiple colors
-	- Modify material slots UI to automatically determine when to be in texture paint mode when selecting a material
-	- Move addon outside of texture paint mode to open up access to new features
-	- Develop a dedicated workspace layout for PBR Painter
-	- Add preview option for each layer, rather than just when using procedural textures
-	- Add filled layer option, removing the need to fill every layer (painted layers as you know them will still remain!)
-	- Create a new setup for painted layers, giving easier access to the built-in painted mask via the mask stack
-	- Add option to ignore layer's masks for a given channel
-	- Replace single channel layers with the option to paint over image textures in multichannel layers
-	- Restructure the UI to give easy access to the main channels (color, roughness, metallic etc)
-	- Add option to use another layer's mask in the current layer's mask stack
-	- Add option to use different UV maps for textures, masks etc
-	- Add option to bake textures and masks to a different UV map
-	- Add option to import a layer, or all layers, from another material
-	- Add option to import a mask, or all masks, from another material
-	- Integrate with 3.0 asset browser, to allow for saving and loading smart materials, layers, masks etc. (still to be added to/improved upon in future
-	- Add option to use node group as a mask
-	- Add new icons etc. to improve the overall appearance and user-friendliness of the addon
-	- Add ambient occlusion option during baking 
-	- Add options to use different edge detection methods for preset edge wear masks
-	- Add vertex color option for ID maps
-	- Add new "View Mode" option, accessible via the three dots button next to the layer stack. You can now select either Material (which is the standard view) or Single Channel. 
+	- Several minor bug fixes
+	- Added option to select how images are automatically saved by the addon
+	- Added option to turn on/off automatic shader compilation per material
+	- Improved performance of layer bumping
+	- Added options to change file naming convention for baked textures
+	- Added a new ID map system with multiple colors
+	- Modified material slots UI to automatically determine when to be in texture paint mode when selecting a material
+	- Moved addon outside of texture paint mode to open up access to new features
+	- Developed a dedicated workspace layout for PBR Painter
+	- Added preview option for each layer, rather than just when using procedural textures
+	- Added filled layer option, removing the need to fill every layer (painted layers as you know them will still remain!)
+	- Created a new setup for painted layers, giving easier access to the built-in painted mask via the mask stack
+	- Added option to ignore layer's masks for a given channel
+	- Replaced single channel layers with the option to paint over image textures in multichannel layers
+	- Restructured the UI to give easy access to the main channels (color, roughness, metallic etc)
+	- Added option to use another layer's mask in the current layer's mask stack
+	- Added option to use different UV maps for textures, masks etc
+	- Added option to bake textures and masks to a different UV map
+	- Added option to import a layer, or all layers, from another material
+	- Added option to import a mask, or all masks, from another material
+	- Added initial integration with 3.0 asset browser, to allow for saving and loading smart materials, layers, masks etc. (still to be improved upon in future
+	- Added option to use node group as a mask
+	- Added new icons etc. to improve the overall appearance and user-friendliness of the addon
+	- Added ambient occlusion option during baking 
+	- Added options to use different edge detection methods for preset edge wear masks
+	- Added vertex color option for ID maps
+	- Added new "View Mode" option, accessible via the three dots button next to the layer stack. You can now select either Material (which is the standard view) or Single Channel. 
 	- Added vertex color as an option for ID map, with the Fill Selected Faces feature. This will fill the selected faces with the vertex color that is selected (very useful for quickly creating ID maps for materials).
-	- Add the option to create an Exportable Material when baking. This will setup a new material (or use a material from a dropdown menu) with the baked textures, ready to export via 
+	- Addded the option to create an Exportable Material when baking. This will setup a new material (or use a material from a dropdown menu) with the baked textures, ready to export
 
 - __v2.2:__
 	- Improved addon performance by automatically cleaning up unused images and node groups associated with deleted layers
