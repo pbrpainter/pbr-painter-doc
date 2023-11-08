@@ -18,7 +18,7 @@ If you already have an old version of PBR Painter installed, and wish to update 
 <li> 2. Close and restart Blender to ensure any cached files are cleared. </li>
 <li> 3. Install the new version as per normal. </li></p>
 
-## Setting up the Asset Browser (Blender 3 Only)
+## Setting up the Asset Browser (Blender 3.x and 4.x Only)
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cpHb4JseF_U" title="YouTube video player" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

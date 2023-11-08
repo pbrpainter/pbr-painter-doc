@@ -1,4 +1,4 @@
-<div style="text-align: right"> Version: 2.3.8 </div>
+<div style="text-align: right"> Version: 2.4.0 </div>
 
 # Overview
 
@@ -22,3 +22,8 @@ The panel on the left-hand side of the screen contains everything you'll need to
 ## PBR Painter Discord server
 Please feel free to join me and other users in the dedicated PBR Painter <a href="https://discord.gg/8PZq9x2fvB">Discord server</a> , where you can ask questions, 
 report bugs, share your PBR Painter artworks or just chat with other PBR Painter users.
+
+## PBR Painter 2.4
+PBR Painter 2.4 is now officially released, with all of its awesome new features! Check out everything that is new below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0jMfIs1W4k?si=KaApmqxpVOBooeAQ" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

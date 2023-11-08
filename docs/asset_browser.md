@@ -1,4 +1,4 @@
-# Using the Asset Browser (Blender 3.x)
+# Using the Asset Browser in Blender 3 & 4
 
 The asset browser is a powerful tool, which was released as part of Blender 3.0. The asset browser, generally speaking,
 allows you to save and reuse your Blender assets in different projects, meaning you don't have to redo the same work

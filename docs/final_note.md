@@ -13,6 +13,5 @@ Thanks, and happy PBR Painting!
 <p>
 Wil
 <br>
-<br>
-ByteBrush Studio
+Founder, ByteBrush Studio
 </p>
