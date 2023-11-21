@@ -3,6 +3,12 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.2:__
+	- Fixed a bug causing the procedural noise and voronoi UI to show the incorrect properties (roughness, distortion etc.) in Blender 4.
+	- Fixed a bug sometimes causing an error when baking to a subdirectory.
+- __v2.4.1:__
+	- Fixed a bug causing some channels to not connect to the Principled BSDF in Blender 4.
+	- Fixed bugs causing an error when attempting to add certain smart masks in Blender 4.
 - __v2.4.0:__
 	- __Asset browser integration__
 	- __UDIM support__
