@@ -3,6 +3,11 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.3:__
+	- Fixed a bug causing PBR Painter asset browser materials to sometimes not be recognised for layer importing
+	- Fixed a bug causing emission to remain even after switching off, in Blender 4
+	- Fixed a bug causing asset browser file path to not be shown in preferences, in Blender 4
+	- Fixed a bug causing an error when using vertex color ID map, in Blender 4
 - __v2.4.2:__
 	- Fixed a bug causing the procedural noise and voronoi UI to show the incorrect properties (roughness, distortion etc.) in Blender 4.
 	- Fixed a bug sometimes causing an error when baking to a subdirectory.
