@@ -3,6 +3,11 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.4:__
+	- Fixed a bug in Blender 4 sometimes causing an error when creating an exportable material when baking
+	- Fixed various bugs related to mesh maps
+	- Improved how invalid filepaths are handled during baking
+	- Changed mask baking to only hide masks when baking or merging mask(s). This is to avoid unintentionally losing all masks if the bake needs to be redone
 - __v2.4.3:__
 	- Fixed a bug causing PBR Painter asset browser materials to sometimes not be recognised for layer importing
 	- Fixed a bug causing emission to remain even after switching off, in Blender 4
