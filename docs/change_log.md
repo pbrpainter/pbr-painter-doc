@@ -3,6 +3,11 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.5:__
+	- Fixed a bug with autosave when no object or material is selected
+	- Added option to change UV map for painted layer mask
+	- Added option to adjust HSV and RGB curve for painted layers
+	- Fixed several bugs with using existing nodes as background and with importing material nodes as a layer
 - __v2.4.4:__
 	- Fixed a bug in Blender 4 sometimes causing an error when creating an exportable material when baking
 	- Fixed various bugs related to mesh maps
