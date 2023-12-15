@@ -45,6 +45,7 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 <p>This video shows how to create photorealistic puddles within Blender using PBR Painter 2.4. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/76XTwmRNDG8?si=v4I-kpfQbHSrEsjO" title="YouTube video player" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 ## Project-Based Tutorials
 
