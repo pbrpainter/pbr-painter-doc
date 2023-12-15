@@ -3,6 +3,8 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.6:__
+	- Fixed a bug causing incompatibility with Blender 2.93
 - __v2.4.5:__
 	- Fixed a bug with autosave when no object or material is selected
 	- Added option to change UV map for painted layer mask
