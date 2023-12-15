@@ -39,6 +39,13 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
+
+### Episode 5 - Photorealistic Puddles
+
+<p>This video shows how to create photorealistic puddles within Blender using PBR Painter 2.4. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/76XTwmRNDG8?si=v4I-kpfQbHSrEsjO" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Project-Based Tutorials
 
 __Project-Based Tutorials__ are focused on texturing real 3D models, and show how to best take advantage of PBR Painter's layered texturing system to texture your models. 
