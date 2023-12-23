@@ -3,6 +3,8 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.7:__
+	- Fixed some regressions caused by v2.4.5, relating to addition of HSV and RGB curve option for painted layers
 - __v2.4.6:__
 	- Fixed a bug causing incompatibility with Blender 2.93
 - __v2.4.5:__
