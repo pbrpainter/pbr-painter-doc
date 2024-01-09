@@ -3,6 +3,10 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.8:__
+	- Fixed a bug causing the ignore mask setting to not work correctly
+	- Fixed some bugs with emission color and emission strength settings in Blender 4
+	- Modified emission baking (emission strength is now baked into emission color)
 - __v2.4.7:__
 	- Fixed some regressions caused by v2.4.5, relating to addition of HSV and RGB curve option for painted layers
 - __v2.4.6:__
