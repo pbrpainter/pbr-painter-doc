@@ -3,6 +3,9 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.9:__
+	- Fixed a bug causing an error when using the "Using UDIM resolution settings" option in Blender 4
+
 - __v2.4.8:__
 	- Fixed a bug causing the ignore mask setting to not work correctly
 	- Fixed some bugs with emission color and emission strength settings in Blender 4
