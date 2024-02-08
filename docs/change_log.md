@@ -3,6 +3,11 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.11:__
+	- Fixed a bug causing incorrect channels to sometimes be connected when importing material as a layer
+	- Fixed naming bug when using custom background
+	- Fixed some bugs with callbacks
+
 - __v2.4.10:__
 	- Fixed a bug with Specular channel baking in Blender 4
 
