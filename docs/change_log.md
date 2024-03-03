@@ -3,6 +3,11 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v2.4.12:__
+	- Fixed a bug that was occasionally causing an error when attempting to create an exportable material after baking
+	- Added option to show the full PBR Painter UI in the sidebar (n-panel) in 3D view, for those of you who like working exclusively in the sidebar
+	- Added bump distance slider to the UI to control the distance of all bump nodes in the addon, giving more control over the bump effect and helping to reduce harsh edges (especially when using a painted/image texture mask for bumping)
+
 - __v2.4.11:__
 	- Fixed a bug causing incorrect channels to sometimes be connected when importing material as a layer
 	- Fixed naming bug when using custom background
