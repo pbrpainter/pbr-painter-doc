@@ -3,6 +3,9 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+
+- __v2.4.14:__
+	- Made compatible with Blender 4.1 (while also maintaining compatibility with all previous versions listed).
 - __v2.4.13:__
 	- Fixed a bug with the update checker
 	- Fixed a bug with baking causing black textures when "Selected to active" is checked
