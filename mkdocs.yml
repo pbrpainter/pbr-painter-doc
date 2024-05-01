@@ -10,6 +10,7 @@ nav:
    - baking.md
    - hands_on_tutorials.md
    - change_log.md
+   - version_3_alpha.md
    - final_note.md
 theme: readthedocs
 use_directory_urls: false
