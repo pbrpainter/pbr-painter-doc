@@ -4,8 +4,14 @@ _Please note that by purchasing PBR Painter you will have access to every update
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
 
+- __v2.4.16:__
+	- Fixed a bug causing an error when channel packed images started with underscore
+	- Fixed a bug causing an underscore to be added at the end of saved image filenames
+	- Added option to change distance and only local properties of AO mesh maps when baking
+- __v2.4.15:__
+	- Correctly check for and restrict usage of PBR Painter 3 materials
 - __v2.4.14:__
-	- Made compatible with Blender 4.1 (while also maintaining compatibility with all previous versions listed).
+	- Made compatible with Blender 4.1 (while also maintaining compatibility with all previous versions listed)
 - __v2.4.13:__
 	- Fixed a bug with the update checker
 	- Fixed a bug with baking causing black textures when "Selected to active" is checked
