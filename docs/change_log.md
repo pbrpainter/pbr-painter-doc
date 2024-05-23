@@ -4,6 +4,8 @@ _Please note that by purchasing PBR Painter you will have access to every update
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
 
+- __v2.4.17:__
+	- Fixed a panel polling bug when no object or material selected/active
 - __v2.4.16:__
 	- Fixed a bug causing an error when channel packed images started with underscore
 	- Fixed a bug causing an underscore to be added at the end of saved image filenames
