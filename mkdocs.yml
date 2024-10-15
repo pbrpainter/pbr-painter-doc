@@ -5,12 +5,13 @@ nav:
    - addon_UI.md
    - layering_intro.md
    - layer_masks.md
+   - channel_types.md
    - asset_browser.md
    - id_maps.md
    - baking.md
    - hands_on_tutorials.md
    - change_log.md
-   - version_3_alpha.md
    - final_note.md
+   - old_tutorials.md
 theme: readthedocs
 use_directory_urls: false

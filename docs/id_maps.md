@@ -5,5 +5,4 @@ your model, which is then used to mask your layers in different ways.
 
 The video below explains ID Maps more generally and provides a step-by-step tutorial showing how to use them in PBR Painter.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPSvwSHjRSY" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/39l3kyHkeJ0?si=Ft6zynSxSYi05mhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

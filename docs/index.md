@@ -1,10 +1,10 @@
-<div style="text-align: right"> Version: 2.4.17 </div>
+<div style="text-align: right"> Version: 3.0.0 </div>
 
 # Overview
 
-This documentation provides an overview on how to use PBR Painter v2.4 for Blender (v2.83, v2.90, v2.91, v2.92, v2.93, v3.0, v3.1, v3.2, v3.3, v3.4, v3.5, v3.6, v4.0 and v4.1).
+This documentation provides an overview on how to use PBR Painter v3 for Blender (v2.83, v2.90, v2.91, v2.92, v2.93, v3.0, v3.1, v3.2, v3.3, v3.4, v3.5, v3.6, v4.0, v4.1 and v4.2).
 
-With the latest version release, PBR Painter documentation has moved to mostly video-based. This means that you can use this documentation to navigate
+PBR Painter documentation is mostly video-based. This means that you can use this documentation to navigate
 to different topics, however most of the explanations are provided via embedded videos. 
 
 ## Where to Get PBR Painter
@@ -22,8 +22,3 @@ The panel on the left-hand side of the screen contains everything you'll need to
 ## PBR Painter Discord server
 Please feel free to join me and other users in the dedicated PBR Painter <a href="https://discord.gg/8PZq9x2fvB">Discord server</a> , where you can ask questions, 
 report bugs, share your PBR Painter artworks or just chat with other PBR Painter users.
-
-## PBR Painter 2.4
-PBR Painter 2.4 is now officially released, with all of its awesome new features! Check out everything that is new below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c0jMfIs1W4k?si=KaApmqxpVOBooeAQ" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

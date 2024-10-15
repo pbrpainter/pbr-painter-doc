@@ -8,13 +8,11 @@ the basics and the second covering the more advanced features.
 <p>
 This video gives an overview of PBR Painter's baking system, explaining how to take your finished material and turn it into a set of baked textures.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YAZgWeSv_Z4" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnGBSeE_eEk?si=Qulrp13oraTlKqqv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
 ## Advanced
 <p>
 This video explains the advanced features in PBR Painter's baking system, mostly related to channel-packing.
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qm2OZdFreFg" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsO4jEq8otU?si=2wPAHqTspNi-SktH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>

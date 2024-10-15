@@ -7,8 +7,7 @@ concepts are easy to understand and intuitive. This part of the documentation is
 
 <p>
 The video below explains the general concepts behind layered texturing, and is a great introduction if you have no experience working with layers.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pv8M-arNKVo" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1PHuyK2MxGE?si=zeGzXg7wJCsSWLd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
 
 ## PBR Painter Layer Types explained
@@ -16,6 +15,5 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 <p> 
 The specific layer types used within PBR Painter are explained in the video below. This video explains exactly how each layer works and how best to
 use them for your materials.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yScgAV66wDg" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krhDbO6nSRU?si=ipNtODiB_JI_J7WG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>

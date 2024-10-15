@@ -3,6 +3,23 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.0.0:__
+	- Complete rewrite of the addon, producing a more efficient, robust and scalable product
+	- Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)
+	- Added folders for combining multiple layers into groups, with folder-level mask stacks
+	- Added "multipaint" option, allowing simultaneous painting of multiple channel textures (ideal for multi-channel decal projection painting)
+	- Significantly improved baking functionality, adding new features such as multi-object baking, more user-friendly baking, etc.
+	- Improved integration of mesh maps, allowing better control of which mesh maps are used and where
+	- Made the addon more robust to accidental node deletion, layer node group deletion etc.
+	- Added optional colour ramps, HSV correction, RGB curve correction etc. to all channels
+	- Improved how deleted layers are stored/accessed
+	- Added option to use node group as a channel
+	- Added new smart masks
+	- Improved the ID Map system by adding the option to bake vertex color maps
+	- Improved node previewing system
+	- Many minor changes related to improved user-friendliness of the addon
+	- Added channel packing configuration library, allowing storage of infinitely many user-created configs
+	- Ensured backwards compatibility, so previous PBR Painter materials can be used (and imported from asset browser) seamlessly
 
 - __v2.4.17:__
 	- Fixed a panel polling bug when no object or material selected/active
