@@ -64,11 +64,15 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="layer_masks.html">Layer Masks</a>
+                    <li class="toctree-l1"><a class="reference internal" href="layer_masks.html">Masks</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="asset_browser.html">Using the Asset Browser in Blender 3 & 4</a>
+                    <li class="toctree-l1"><a class="reference internal" href="channel_types.html">Introduction to Channels</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="asset_browser.html">Using the Asset Browser</a>
                     </li>
                 </ul>
                 <ul>
@@ -90,11 +94,11 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="version_3_alpha.html">PBR Painter Version 3 Alpha</a>
+                    <li class="toctree-l1"><a class="reference internal" href="final_note.html">A Final Note</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="final_note.html">A Final Note</a>
+                    <li class="toctree-l1"><a class="reference internal" href="old_tutorials.html">Old PBR Painter Tutorials</a>
                     </li>
                 </ul>
       </div>
@@ -133,7 +137,30 @@
 <p><em>Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost.</em></p>
 <p>The below shows the <em>major</em> changes made to the addon over previous versions. Note that not all <em>minor</em> changes are mentioned.</p>
 <ul>
-<li><strong>v2.4.17:</strong><ul>
+<li>
+<p><strong>v3.0.0:</strong></p>
+<ul>
+<li>Complete rewrite of the addon, producing a more efficient, robust and scalable product</li>
+<li>Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)</li>
+<li>Added folders for combining multiple layers into groups, with folder-level mask stacks</li>
+<li>Added "multipaint" option, allowing simultaneous painting of multiple channel textures (ideal for multi-channel decal projection painting)</li>
+<li>Significantly improved baking functionality, adding new features such as multi-object baking, more user-friendly baking, etc.</li>
+<li>Improved integration of mesh maps, allowing better control of which mesh maps are used and where</li>
+<li>Made the addon more robust to accidental node deletion, layer node group deletion etc.</li>
+<li>Added optional colour ramps, HSV correction, RGB curve correction etc. to all channels</li>
+<li>Improved how deleted layers are stored/accessed</li>
+<li>Added option to use node group as a channel</li>
+<li>Added new smart masks</li>
+<li>Improved the ID Map system by adding the option to bake vertex color maps</li>
+<li>Improved node previewing system</li>
+<li>Many minor changes related to improved user-friendliness of the addon</li>
+<li>Added channel packing configuration library, allowing storage of infinitely many user-created configs</li>
+<li>Ensured backwards compatibility, so previous PBR Painter materials can be used (and imported from asset browser) seamlessly</li>
+</ul>
+</li>
+<li>
+<p><strong>v2.4.17:</strong></p>
+<ul>
 <li>Fixed a panel polling bug when no object or material selected/active</li>
 </ul>
 </li>
@@ -375,7 +402,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="version_3_alpha.html" class="btn btn-neutral float-right" title="PBR Painter Version 3 Alpha">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="final_note.html" class="btn btn-neutral float-right" title="A Final Note">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="hands_on_tutorials.html" class="btn btn-neutral" title="Hands-On Tutorials"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -407,7 +434,7 @@
         <span><a href="hands_on_tutorials.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="version_3_alpha.html" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="final_note.html" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
