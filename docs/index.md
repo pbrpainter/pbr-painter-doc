@@ -22,3 +22,11 @@ The panel on the left-hand side of the screen contains everything you'll need to
 ## PBR Painter Discord server
 Please feel free to join me and other users in the dedicated PBR Painter <a href="https://discord.gg/8PZq9x2fvB">Discord server</a> , where you can ask questions, 
 report bugs, share your PBR Painter artworks or just chat with other PBR Painter users.
+
+## PBR Painter Fundamentals
+
+To get started, it is recommend that you check out the [PBR Painter Fundamentals](https://youtube.com/playlist?list=PLMN9uGgVtpSt9hTaiDAKYJ1wIS1nQvTf9&si=tMBltcmDM8zo8W_Q)
+playlist on the PBR Painter YouTube channel. This playlist will guide you through all of
+the beginner tutorial videos that are outlined in this documentation, in the correct order.
+
+Otherwise, feel free to navigate to the videos here in the documentation if you prefer!
