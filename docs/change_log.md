@@ -3,6 +3,9 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.0.1:__
+	- Fixed bug sometimes causing an error when using existing material as background
+	- Fixed bug causing error when copying a custom node group mask
 - __v3.0.0:__
 	- Complete rewrite of the addon, producing a more efficient, robust and scalable product
 	- Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)

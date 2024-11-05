@@ -1,4 +1,4 @@
-<div style="text-align: right"> Version: 3.0.0 </div>
+<div style="text-align: right"> Version: 3.0.1 </div>
 
 # Overview
 
@@ -12,7 +12,7 @@ to different topics, however most of the explanations are provided via embedded 
 PBR Painter is currently available at these locations:
  
 <a href="https://blendermarket.com/products/pbr-painter">Blender Market</a>
-<br/><a href="https://flippednormals.com/product/pbr-painter-2-4-for-blender-7838">Flipped Normals</a>
+<br/><a href="https://flippednormals.com/product/pbr-painter-3-for-blender-7838">Flipped Normals</a>
 <br/><a href="https://gumroad.com/l/pbrpainter">Gumroad</a>
 
 ## Documentation Layout
