@@ -3,6 +3,14 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.1.1:__
+	- Several bug fixes and improvements relating to GizMap integration
+- __v3.1.0:__
+	- Several bug fixes
+	- Expanded integration of GizMap accessory addon by adding object decal mapping option for image textures
+	- Ported multipainting to be compatible with Blender 4.3+
+- __v3.0.2:__
+	- Integrated GizMap accessory addon
 - __v3.0.1:__
 	- Fixed bug sometimes causing an error when using existing material as background
 	- Fixed bug causing error when copying a custom node group mask
