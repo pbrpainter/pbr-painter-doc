@@ -3,6 +3,9 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.1.2:__
+	- Several bug fixes and improvements relating to importing materials and masks
+	- When setting up a material, if nodes are used/detected, the _use custom background_ option will be set to True by default
 - __v3.1.1:__
 	- Several bug fixes and improvements relating to GizMap integration
 - __v3.1.0:__
