@@ -118,56 +118,43 @@
               
                 <h1 id="changelog">Changelog</h1>
 <p><em>Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost.</em></p>
-<p>The below shows the <em>major</em> changes made to the addon over previous versions. Note that not all <em>minor</em> changes are mentioned.</p>
+<p>The below shows the <em>major</em> changes made to the addon over previous versions. Note that not all <em>minor</em> changes are mentioned.
+- <strong>v3.1.3:</strong>
+    - Several minor bug fixes related to workspace versioning in legacy versions
+    - Fixed bug sometimes causing Blender to crash when baking masks
+- <strong>v3.1.2:</strong>
+    - Several bug fixes and improvements relating to importing materials and masks
+    - When setting up a material, if nodes are used/detected, the <em>use custom background</em> option will be set to True by default
+- <strong>v3.1.1:</strong>
+    - Several bug fixes and improvements relating to GizMap integration
+- <strong>v3.1.0:</strong>
+    - Several bug fixes
+    - Expanded integration of GizMap accessory addon by adding object decal mapping option for image textures
+    - Ported multipainting to be compatible with Blender 4.3+
+- <strong>v3.0.2:</strong>
+    - Integrated GizMap accessory addon
+- <strong>v3.0.1:</strong>
+    - Fixed bug sometimes causing an error when using existing material as background
+    - Fixed bug causing error when copying a custom node group mask
+- <strong>v3.0.0:</strong>
+    - Complete rewrite of the addon, producing a more efficient, robust and scalable product
+    - Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)
+    - Added folders for combining multiple layers into groups, with folder-level mask stacks
+    - Added "multipaint" option, allowing simultaneous painting of multiple channel textures (ideal for multi-channel decal projection painting)
+    - Significantly improved baking functionality, adding new features such as multi-object baking, more user-friendly baking, etc.
+    - Improved integration of mesh maps, allowing better control of which mesh maps are used and where
+    - Made the addon more robust to accidental node deletion, layer node group deletion etc.
+    - Added optional colour ramps, HSV correction, RGB curve correction etc. to all channels
+    - Improved how deleted layers are stored/accessed
+    - Added option to use node group as a channel
+    - Added new smart masks
+    - Improved the ID Map system by adding the option to bake vertex color maps
+    - Improved node previewing system
+    - Many minor changes related to improved user-friendliness of the addon
+    - Added channel packing configuration library, allowing storage of infinitely many user-created configs
+    - Ensured backwards compatibility, so previous PBR Painter materials can be used (and imported from asset browser) seamlessly</p>
 <ul>
-<li><strong>v3.1.2:</strong><ul>
-<li>Several bug fixes and improvements relating to importing materials and masks</li>
-<li>When setting up a material, if nodes are used/detected, the <em>use custom background</em> option will be set to True by default</li>
-</ul>
-</li>
-<li><strong>v3.1.1:</strong><ul>
-<li>Several bug fixes and improvements relating to GizMap integration</li>
-</ul>
-</li>
-<li><strong>v3.1.0:</strong><ul>
-<li>Several bug fixes</li>
-<li>Expanded integration of GizMap accessory addon by adding object decal mapping option for image textures</li>
-<li>Ported multipainting to be compatible with Blender 4.3+</li>
-</ul>
-</li>
-<li><strong>v3.0.2:</strong><ul>
-<li>Integrated GizMap accessory addon</li>
-</ul>
-</li>
-<li><strong>v3.0.1:</strong><ul>
-<li>Fixed bug sometimes causing an error when using existing material as background</li>
-<li>Fixed bug causing error when copying a custom node group mask</li>
-</ul>
-</li>
-<li>
-<p><strong>v3.0.0:</strong></p>
-<ul>
-<li>Complete rewrite of the addon, producing a more efficient, robust and scalable product</li>
-<li>Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)</li>
-<li>Added folders for combining multiple layers into groups, with folder-level mask stacks</li>
-<li>Added "multipaint" option, allowing simultaneous painting of multiple channel textures (ideal for multi-channel decal projection painting)</li>
-<li>Significantly improved baking functionality, adding new features such as multi-object baking, more user-friendly baking, etc.</li>
-<li>Improved integration of mesh maps, allowing better control of which mesh maps are used and where</li>
-<li>Made the addon more robust to accidental node deletion, layer node group deletion etc.</li>
-<li>Added optional colour ramps, HSV correction, RGB curve correction etc. to all channels</li>
-<li>Improved how deleted layers are stored/accessed</li>
-<li>Added option to use node group as a channel</li>
-<li>Added new smart masks</li>
-<li>Improved the ID Map system by adding the option to bake vertex color maps</li>
-<li>Improved node previewing system</li>
-<li>Many minor changes related to improved user-friendliness of the addon</li>
-<li>Added channel packing configuration library, allowing storage of infinitely many user-created configs</li>
-<li>Ensured backwards compatibility, so previous PBR Painter materials can be used (and imported from asset browser) seamlessly</li>
-</ul>
-</li>
-<li>
-<p><strong>v2.4.17:</strong></p>
-<ul>
+<li><strong>v2.4.17:</strong><ul>
 <li>Fixed a panel polling bug when no object or material selected/active</li>
 </ul>
 </li>
