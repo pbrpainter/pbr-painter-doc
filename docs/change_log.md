@@ -2,6 +2,9 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
+- __v3.2.0:__
+	- Several minor UI-related bug fixes
+	- Added option to use channel-specific mask color ramps
 - __v3.1.3:__
 	- Several minor bug fixes related to workspace versioning in legacy versions
 	- Fixed bug sometimes causing Blender to crash when baking masks
