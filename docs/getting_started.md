@@ -2,11 +2,6 @@
 
 ## Installation and Loading the PBR Painter Workspace
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5AvdFg7Jrm4?si=VAaaq2_fsWJiGtka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-
-
 When you purchase PBR Painter, you will have access to a .zip file that contains the entire addon package.
 
 *************
