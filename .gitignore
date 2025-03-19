@@ -1,6 +1,8 @@
 site/
 
-_base_images/
+_ignored/
+
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

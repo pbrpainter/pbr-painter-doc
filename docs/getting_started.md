@@ -40,5 +40,4 @@ For earlier Blender versions, if you already have an old version of PBR Painter 
 
 The addon preferences contain all of the global PBR Painter settings that are applied across your projects/files. 
 
-[TODO PREFERENCES DESCRIPTION]
 If you are using Blender 3+, it is recommended that you choose an asset directory, within the addon preferences. This will create a new filepath to tell Blender where your PBR Painter assets will be stored.
