@@ -2,6 +2,7 @@ site_name: PBR Painter
 nav:
    - index.md
    - getting_started.md
+   - preferences.md
    - addon_UI.md
    - layering_intro.md
    - layer_masks.md

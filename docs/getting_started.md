@@ -27,12 +27,3 @@ For earlier Blender versions, if you already have an old version of PBR Painter 
 <p><li> 1. Completely uninstall the old version from Blender. </li>
 <li> 2. Install the new version as per normal. </li>
 <li> 3. Close and restart Blender to ensure any cached files are cleared. </li></p>
-
-## Addon Preferences
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H_rOdtkc1Yo?si=Ulj7oOo2bJ6C9rjq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-
-The addon preferences contain all of the global PBR Painter settings that are applied across your projects/files. 
-
-If you are using Blender 3+, it is recommended that you choose an asset directory, within the addon preferences. This will create a new filepath to tell Blender where your PBR Painter assets will be stored.
