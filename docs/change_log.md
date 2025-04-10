@@ -2,6 +2,11 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
+- __v3.3.0:__
+	- Various baking bug fixes
+	- Added 32-bit float option for mask baking
+	- Ported to Blender 4.4 with multipainting fix
+	- Implemented automated automated high-poly baking to low-poly model
 - __v3.2.1:__
 	- Minor UI bug fixes
 	- Fixed bug causing error when importing background layer from another material or asset browser
