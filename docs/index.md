@@ -11,7 +11,7 @@ to different topics, wherein you will find written documentation as well as any 
 
 PBR Painter is currently available at these locations:
  
-<a href="https://blendermarket.com/products/pbr-painter">Blender Market</a>
+<a href="https://superhivemarket.com/products/pbr-painter">Superhive (formerly Blender Market)</a>
 <br/><a href="https://flippednormals.com/product/pbr-painter-3-for-blender-7838">Flipped Normals</a>
 <br/><a href="https://gumroad.com/l/pbrpainter">Gumroad</a>
 

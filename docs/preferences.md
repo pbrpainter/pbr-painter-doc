@@ -10,7 +10,7 @@ The addon preferences contain all of the global PBR Painter preferences and sett
 
 ### Check for Updates
 
-This button does a quick check to see if you're using the latest version of PBR Painter. Note that it requires an internet connection. If a later version is found, you'll be provided with links to your marketplace of choice (Blender Market, Flipped Normals or Gumroad).
+This button does a quick check to see if you're using the latest version of PBR Painter. Note that it requires an internet connection. If a later version is found, you'll be provided with links to your marketplace of choice (Superhive (formely Blender Market), Flipped Normals or Gumroad).
 
 ### Assets Directory
 
