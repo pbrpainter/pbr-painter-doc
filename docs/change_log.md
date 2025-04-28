@@ -2,6 +2,8 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
+- __v3.3.1:__
+	- Fixed a critical baking bug related to the material output node
 - __v3.3.0:__
 	- Various baking bug fixes
 	- Added 32-bit float option for mask baking
