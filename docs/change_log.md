@@ -3,6 +3,9 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.4.0:__
+	- Port to Blender 5 (maintaining compatibility with earlier Blender versions)
+	- Several minor bug fixes
 - __v3.3.2:__
 	- Fixed a bug causing the active painted image to revert to a previous painted layer
 	- Fixed a bug causing the background normal map to occasionally not update when using the baked normal mesh map

@@ -1,8 +1,8 @@
-<div style="text-align: right"> Version: 3.3.2 </div>
+<div style="text-align: right"> Version: 3.4.0 </div>
 
 # Overview
 
-This documentation provides an overview on how to use PBR Painter v3 for Blender (v2.83, v2.90, v2.91, v2.92, v2.93, v3.0, v3.1, v3.2, v3.3, v3.4, v3.5, v3.6, v4.0, v4.1, v4.2, v4.3 and v4.4).
+This documentation provides an overview on how to use PBR Painter v3 for Blender (v2.83, v2.90, v2.91, v2.92, v2.93, v3.0, v3.1, v3.2, v3.3, v3.4, v3.5, v3.6, v4.0, v4.1, v4.2, v4.3, v4.4, v4.5 and v5.0).
 
 PBR Painter documentation is supported by videos throughout. This means that you can use this documentation to navigate
 to different topics, wherein you will find written documentation as well as any relevant video tutorials.
