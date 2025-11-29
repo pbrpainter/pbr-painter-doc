@@ -3,6 +3,8 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.4.2:__
+	- Fixed a bug causing an error when loading the PBR Painter workspace in Blender 5
 - __v3.4.1:__
 	- Fixed a bug causing an error when import opacity images as a mask
 - __v3.4.0:__
