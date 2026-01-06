@@ -3,6 +3,10 @@ _Please note that by purchasing PBR Painter you will have access to every update
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 
+- __v3.4.4:__
+	- Fixed a bug in Blender 5 causing an error when baking to channel packed textures
+	- Fixed a bug in Blender 5 causing an error when changing focal brush lock
+	- Fixed a bug sometimes causing an error on startup (related to loading a channel packing configuration before full startup)
 - __v3.4.3:__
 	- Fixed a bug causing incorrect procedurally generated clearcoat normals
 - __v3.4.2:__
