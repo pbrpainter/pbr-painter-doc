@@ -1,5 +1,5 @@
 # Changelog
-_Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
+_Please note that by purchasing PBR Painter you will have access to every update that is released, for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
 - __v3.4.6:__
