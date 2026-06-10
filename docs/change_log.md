@@ -2,6 +2,8 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, forever and for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
+- __v3.4.6:__
+	- Fixed UI bug when painting vertex color ID map using unified paint settings
 - __v3.4.5:__
 	- Added option to change ID map image color space
 - __v3.4.4:__
