@@ -2,57 +2,76 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
+
 - __v3.4.6:__
 	- Fixed UI bug when painting vertex color ID map using unified paint settings
+	
 - __v3.4.5:__
 	- Added option to change ID map image color space
+
 - __v3.4.4:__
 	- Fixed a bug in Blender 5 causing an error when baking to channel packed textures
 	- Fixed a bug in Blender 5 causing an error when changing focal brush lock
 	- Fixed a bug sometimes causing an error on startup (related to loading a channel packing configuration before full startup)
+
 - __v3.4.3:__
 	- Fixed a bug causing incorrect procedurally generated clearcoat normals
+
 - __v3.4.2:__
 	- Fixed a bug causing an error when loading the PBR Painter workspace in Blender 5
+
 - __v3.4.1:__
 	- Fixed a bug causing an error when import opacity images as a mask
+
 - __v3.4.0:__
 	- Port to Blender 5 (maintaining compatibility with earlier Blender versions)
 	- Several minor bug fixes
+
 - __v3.3.2:__
 	- Fixed a bug causing the active painted image to revert to a previous painted layer
 	- Fixed a bug causing the background normal map to occasionally not update when using the baked normal mesh map
 	- Fixed a few bugs with the bevel mask when using mesh maps, sometimes causing errors and yielding incorrect masks
+
 - __v3.3.1:__
 	- Fixed a critical baking bug related to the material output node
+
 - __v3.3.0:__
 	- Various baking bug fixes
 	- Added 32-bit float option for mask baking
 	- Ported to Blender 4.4 with multipainting fix
 	- Implemented automated automated high-poly baking to low-poly model
+
 - __v3.2.1:__
 	- Minor UI bug fixes
 	- Fixed bug causing error when importing background layer from another material or asset browser
+
 - __v3.2.0:__
 	- Several minor UI-related bug fixes
 	- Added option to use channel-specific mask color ramps
+
 - __v3.1.3:__
 	- Several minor bug fixes related to workspace versioning in legacy versions
 	- Fixed bug sometimes causing Blender to crash when baking masks
+
 - __v3.1.2:__
 	- Several bug fixes and improvements relating to importing materials and masks
 	- When setting up a material, if nodes are used/detected, the _use custom background_ option will be set to True by default
+
 - __v3.1.1:__
 	- Several bug fixes and improvements relating to GizMap integration
+
 - __v3.1.0:__
 	- Several bug fixes
 	- Expanded integration of GizMap accessory addon by adding object decal mapping option for image textures
 	- Ported multipainting to be compatible with Blender 4.3+
+
 - __v3.0.2:__
 	- Integrated GizMap accessory addon
+
 - __v3.0.1:__
 	- Fixed bug sometimes causing an error when using existing material as background
 	- Fixed bug causing error when copying a custom node group mask
+
 - __v3.0.0:__
 	- Complete rewrite of the addon, producing a more efficient, robust and scalable product
 	- Introduced dynamic channels, so that only used channels are included in the node group (also better handles compatibility across Blender versions)
@@ -73,17 +92,22 @@ The below shows the _major_ changes made to the addon over previous versions. No
 
 - __v2.4.17:__
 	- Fixed a panel polling bug when no object or material selected/active
+
 - __v2.4.16:__
 	- Fixed a bug causing an error when channel packed images started with underscore
 	- Fixed a bug causing an underscore to be added at the end of saved image filenames
 	- Added option to change distance and only local properties of AO mesh maps when baking
+
 - __v2.4.15:__
 	- Correctly check for and restrict usage of PBR Painter 3 materials
+
 - __v2.4.14:__
 	- Made compatible with Blender 4.1 (while also maintaining compatibility with all previous versions listed)
+
 - __v2.4.13:__
 	- Fixed a bug with the update checker
 	- Fixed a bug with baking causing black textures when "Selected to active" is checked
+
 - __v2.4.12:__
 	- Fixed a bug that was occasionally causing an error when attempting to create an exportable material after baking
 	- Added option to show the full PBR Painter UI in the sidebar (n-panel) in 3D view, for those of you who like working exclusively in the sidebar
