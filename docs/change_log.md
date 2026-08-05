@@ -2,7 +2,13 @@
 _Please note that by purchasing PBR Painter you will have access to every update that is released, for no extra cost._
 
 The below shows the _major_ changes made to the addon over previous versions. Note that not all _minor_ changes are mentioned.
-
+- __v3.4.8:__
+	- Added a check for non-local datablocks and a trigger to make material and nested datablocks local
+- __v3.4.7:__
+	- Fixed a bug sometimes causing an error when using background material on setup
+	Fixed a bug with multi-texture import when channel name within filename
+	Fixed a bug with single material bake on multi-material object
+	Fixed a bug when importing non-local materials
 - __v3.4.6:__
 	- Fixed UI bug when painting vertex color ID map using unified paint settings
 	
